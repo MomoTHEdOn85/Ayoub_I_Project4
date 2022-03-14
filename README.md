@@ -1,7 +1,7 @@
-=====================================================================
+
 #   Project 4 : Responsive Web Design - Media Query
-=====================================================================
-The following project will exhibit the basic example of a media query based website by following the listed specs (they can be found in design_breif).
+
+ The following project will exhibit the basic example of a media query based website by following the listed specs (they can be found in design_breif).
 
 ## Prerequisites
  - Have a Git Bash

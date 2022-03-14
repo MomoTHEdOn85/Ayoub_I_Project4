@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Author : Immama Ayoub */
+
+.hidden{
+	display: none;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+/* Mobile first */
+
+.cont {
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+}
+
+.col {
+  padding: 25px;
+  margin: 15px;
+  height: 500px;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+.box1  {
+  background-color: pink;
+}
+
+.box2  {
+  background-color: red;
+}
+
+.box3  {
+  display: none;
+}
+
+.box4  {
+  display: none;
+}
+
+ @media screen and (min-width: 641px)  {
+   .cont  {
+     flex-direction: row;
+   }
+   .box1  {
+     background-color: blue;
+   }
+
+   .box2  {
+     background-color: purple;
+   }
+
+   .box3  {
+     display: block;
+     background-color: grey;
+   }
+
+   .box4  {
+     display: block;
+     background-color: brown;
+   }
+
+ }
